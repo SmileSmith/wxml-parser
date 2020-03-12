@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "wxml解析器",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,7 @@
   "author": "smilesmith",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/parser": "^2.23.0",
-    "@wxmini/wxml-parser": "^1.0.1"
+    "rollup": "^2.0.5",
+    "rollup-plugin-typescript2": "^0.26.0"
   }
 }

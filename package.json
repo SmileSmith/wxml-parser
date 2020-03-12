@@ -30,8 +30,9 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "publish": "lerna publish",
     "install": "lerna bootstrap",
+    "build": "lerna exec --parallel -- rollup -c=rollup.config.js",
+    "publish": "lerna publish",
     "clean": "lerna clean"
   },
   "husky": {

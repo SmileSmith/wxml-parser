@@ -1,0 +1,19 @@
+{
+  "name": "@smilesmith/wxml-parser",
+  "version": "0.0.1",
+  "description": "wxml解析器",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wxml",
+    "parser"
+  ],
+  "author": "smilesmith",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.23.0",
+    "@wxmini/wxml-parser": "^1.0.1"
+  }
+}

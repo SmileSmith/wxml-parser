@@ -1,5 +1,5 @@
 {
-  "name": "@smilesmith/wxml-parser",
+  "name": "@wxapp/wxml-parser",
   "version": "0.0.2",
   "description": "wxml解析器",
   "main": "./dist/index.js",

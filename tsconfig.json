@@ -35,7 +35,5 @@
     "**/src/**/*"
   ],
   // 指定一个排除列表（include的反向操作）
-  "exclude": [
-    "**/*.debug.ts"
-  ],
+  "exclude": [],
 }

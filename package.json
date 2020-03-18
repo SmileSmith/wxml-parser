@@ -32,7 +32,6 @@
     "install": "lerna bootstrap",
     "dev": "lerna exec --parallel -- rollup -c=rollup.config.js --watch",
     "build": "lerna exec --parallel -- rollup -c=rollup.config.js",
-    "publish": "lerna changed && lerna publish",
     "clean": "lerna clean"
   },
   "husky": {

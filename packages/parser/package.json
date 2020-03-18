@@ -20,6 +20,5 @@
   "dependencies": {
     "rollup": "^2.0.5",
     "rollup-plugin-typescript2": "^0.26.0"
-  },
-  "gitHead": "6d1bb0991bd595c23476dedb83714b241a386d03"
+  }
 }

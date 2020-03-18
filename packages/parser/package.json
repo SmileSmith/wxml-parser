@@ -7,6 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/SmileSmith/wxml-parser/tree/master/packages/parser",
   "keywords": [
     "wxml",
     "parser"

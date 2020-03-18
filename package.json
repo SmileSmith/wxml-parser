@@ -1,7 +1,6 @@
 {
-  "name": "root",
+  "name": "wxapp",
   "private": true,
-  "version": "0.0.0",
   "description": "wxml解析器",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -33,7 +32,7 @@
     "install": "lerna bootstrap",
     "dev": "lerna exec --parallel -- rollup -c=rollup.config.js --watch",
     "build": "lerna exec --parallel -- rollup -c=rollup.config.js",
-    "publish": "lerna publish",
+    "publish": "lerna changed && lerna publish",
     "clean": "lerna clean"
   },
   "husky": {
@@ -41,6 +40,11 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "engines": {
+    "node": ">= 6.9.0 < 14.0.0",
+    "npm": ">= 3.x <= 6.x",
+    "yarn": ">=0.27.5 || >=1.0.0-20170811"
   },
   "lint-staged": {
     "*.ts": [

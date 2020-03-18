@@ -4,6 +4,12 @@
   ],
   "version": "1.0.0",
   "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    },
     "version": {
       "hoist": true,
       "conventionalCommits": true
